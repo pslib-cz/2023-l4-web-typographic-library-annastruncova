@@ -3,6 +3,8 @@
 **Author:** [*Štruncová Anna*](https://github.com/annastruncova)
 ## Demo site
 Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-annastruncova/)** site for preview.
+## Description
+Fontify is typographic library.
 ## Content
 1. [Implemantation](#Implementation)
 2. [Fonts](#Fonts)
@@ -23,8 +25,6 @@ Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-anna
 ```html
 <link rel="stylesheet" href="./CSS/typography.css">
 ```
-## Usage
-Typographic library with CSS and HTML resources simplify web design, offering multiple components.
 ## Fonts
 Fontify is using [Petrona](https://fonts.google.com/specimen/Petrona?query=Petrona) and [Lora](https://fonts.google.com/specimen/Lora?query=Lora)
 ## Color

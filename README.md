@@ -41,7 +41,7 @@ This library uses predefined colors.
 You can use headings from `<h1>` to `<h5>`.
 
 ## Text
-Document's font size is set to `16px`. There are multiple tags that you can further use to customize the text, such as `<u>`, `<b>`, `<s>`, `<mark>`, `<i>`, `<small>`, `<a>`.
+ There are multiple tags that you can further use to customize the text, such as `<u>`, `<b>`, `<s>`, `<mark>`, `<i>`, `<small>`, `<a>`.
 ## Lists
 There are two types of predefined lists.
 ### Ordered list

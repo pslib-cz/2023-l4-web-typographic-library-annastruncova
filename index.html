@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography library</title>
+    <link rel="stylesheet" href="./CSS/menu.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="./JS/hamburger.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oswald:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header__top">
+            <div class="hamburger-row">
+                <div class="logo logo-mobile"><a href="#">Fontify</a></div>
+                <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+                <nav class="hamburger-nav hamburger-zone">
+                    <div class="logo logo-desktop"><a href="#">Fontify</a></div>
+                    <ul>
+                        <li><a href="#headings">Headings</a></li>
+                        <li><a href="#text">Text</a></li>
+                        <li><a href="#lists">Lists</a></li>
+                        <li><a href="#table">Table</a></li>
+                        <li><a href="#buttons">Buttons</a></li>
+                        <li><a href="#pictures">Pictures</a></li>
+                    </ul>
+                    
+                </nav>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="main__header">Typography library</h1>
+        <section class="headings-section" id="headings">
+            <h2>Headings</h2>
+            <div>
+                <p class="unimportant">&lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt;</p>
+                <div class="headings-wrapper">
+                    <h2 class="h1">Heading h1</h2>
+                    <h2>Heading h2</h2>
+                    <h3>Heading h3</h3>
+                    <h4>Heading h4</h4>
+                    <h5>Heading h5</h5>
+                </div>
+            </div>
+        </section>
+        <section class="text-section" id="text">
+            <h2>Types of text</h2>
+            <div>
+                <p class="unimportant">&lt;p&gt; &lt;u&gt; &lt;b&gt; &lt;s&gt; &lt;mark&gt; &lt;i&gt; &lt;mark&gt;</p>
+                <div class="text-wrapper">
+                    <p>Normal paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed ac dolor sit amet purus malesuada congue. <p></p>
+                    <p>This text is <u>underlined</u> and this text is <b>bold.</b> This text is <s>striked</s> and this text is <mark>highlited</mark> There is <i>italic</i> and text with <small>small</small> words and this text is <a href="#text">clickeble.</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="lists-section" id="lists"> 
+            <h2>Lists</h2>
+                <div  class="lists-wrapper">
+                    <div>
+                        <h3>Unordered list</h3>
+                        <div>
+                            <p class="unimportant">&lt;ul&gt; &lt;li&gt; something &lt;/li&gt; &lt;/ul&gt;</p>
+                            <ul>
+                                <li>Ingredients
+                                    <ul>
+                                        <li>7 Egg Yolks</li>
+                                        <li>2/3 of a Cup of Granulated Sugar</li>
+                                    </ul>
+                                </li>
+                                <li>Something</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Ordered list</h3>
+                        <div>
+                            <p class="unimportant">&lt;ol&gt; &lt;li&gt; something &lt;/li&gt; &lt;/ol&gt;</p>
+                            <ol>
+                                <li>In a large bowl beat the egg yolks and sugar for about 2 minutes, set aside.</li>
+                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                                <li> Ipsum illum minima ea recusandae.
+                                    <ol>
+                                        <li>Add the egg yolk mixture back into the saucepan</li>
+                                        <li> about 7 to 8 minutes making sure to stir the whole time.</li>
+                                    </ol>
+                                </li>
+                                <li>Praesentium sint ad ut neque debitis consectetur architecto error molestiae porro ipsam?</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="table-section" id="table">
+            <h2>Table</h2>
+            <p class="unimportant">&lt;table&gt;</p>
+            <div class="table-wrapper">
+                <table class="table">
+                    <caption>What the table contains</caption>
+                    <thead>
+                        <tr>
+                            <td class="dark">&nbsp;</td>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>a</th>
+                            <td>Domenic</td>
+                            <td>1</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <th>b</th>
+                            <td>Saily</td>
+                            <td>5</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th>c</th>
+                            <td>Nick</td>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="pictures-section" id="pictures">
+            <h2>Picture</h2> 
+            <p class="unimportant">&lt;img class="photo-image"&gt; </p>
+            <div class="photo">
+                    <figure class="photo__block">
+                        <a href="./img/picture.jpg" class="image-link"><img class="photo-image" src="./img/picture.jpg" alt="poster"></a>
+                        <figcaption class="photo-title">Caption photo</figcaption>
+                    </figure>
+            </div>
+        </section>
+        <section class="buttons-section" id="buttons">
+            <h2>Buttons</h2>
+            <div>
+                <p class="unimportant">class="button"</p>
+                <div class="buttons-wrapper">
+                    <div class="button-wrapper">
+                        <p class="unimportant">class="button-dark"</p>
+                        <button class="button button-dark" type="button">Dark</button>
+                    </div>
+                    <div class="button-wrapper">
+                        <p class="unimportant">class="button-light"</p>
+                        <button class="button button-light" type="button">Light</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Anna Štruncová</p>
+        <a href="mailto:anna.struncova.020pslib.cz">anna.struncova.020@pslib.cz</a>
+    </footer>
+</body>
+</html>

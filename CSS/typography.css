@@ -34,7 +34,9 @@ main{
     font-size: 15px;
     margin: 0.5rem;
 }
-
+p{
+    font-size: 16px;
+}
 /*headings*/
 .h1{
     font-size: 30px;
@@ -175,6 +177,7 @@ ol li:before {
     padding: 0.25rem 2rem;
     border-radius: 10px;
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
 }
 .button-light{
     background-color: var(--light);
